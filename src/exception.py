@@ -18,11 +18,11 @@ class CustomException(Exception):
         
     def __str__(self) -> str:
         return self.error_message
-    
-if __name__ == "__main__":
-        try:
-            a=1/0
-        except Exception as ex:
-                logging.info("Division by zero")
-                raise CustomException(ex,sys)
+# Testing File
+#if __name__ == "__main__":
+#        try:
+#           a=156/0
+#        except Exception as ex:
+#               logging.info("Division by zero")
+#               raise CustomException(ex,sys)
         
